@@ -1,0 +1,163 @@
+/* Container and Heading */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tracker-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-heading {
+  margin-bottom: 10px;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button Styles */
+.btn-submit, .btn-cancel {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit {
+  background-color: #28a745;
+}
+
+.btn-submit:hover {
+  background-color: #218838; /* Slightly darker green */
+}
+
+.btn-cancel {
+  background-color: #dc3545;
+}
+
+.btn-cancel:hover {
+  background-color: #c82333; /* Slightly darker red */
+}
+
+/* Table Styles */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-head {
+  background-color: #f8f9fa;
+}
+
+.table-header {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table-body {
+  background-color: #ffffff;
+}
+
+.table-row {
+  border-bottom: 1px solid #dee2e6;
+  transition: background-color 0.3s ease;
+}
+
+.table-row:hover {
+  background-color: #f1f1f1; /* Light gray on hover */
+}
+
+.table-data {
+  padding: 10px;
+}
+
+.project-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+.btn-edit, .btn-delete {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+  background-color: #007bff;
+}
+
+.btn-edit:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-delete {
+  background-color: #dc3545;
+}
+
+.btn-delete:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Link Button */
+.link-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,46 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tracker-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table-head {
+  background-color: #f4f4f4;
+}
+
+.table-header {
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.table-body {
+  background-color: #fff;
+}
+
+.table-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-data {
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.table-data:last-child {
+  border-right: none;
+}
